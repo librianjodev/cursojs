@@ -21,12 +21,13 @@ const nome = "Paulo Vítor";
 const sobrenome = "Medeiros";
 
 // Armazenando os demais dados em variáveis, já que podem sofrer alteração:
-var idade = 22;
-var peso = 75;
-var altura = 1.75;
+let idade = 22;
+let peso = 75;
+let altura = 1.75;
 
 // Calculando o IMC e armazenando numa variável:
-var imc = peso / (altura ^ 2);
+let imc;
+imc = peso / (altura ^ 2);
 
 console.log(nome + " " + sobrenome + " tem " + idade + " anos, pesa " + peso + " kg, tem " + altura + "m de altura e seu IMC é " + imc + ".");
 
